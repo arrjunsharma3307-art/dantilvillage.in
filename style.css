@@ -997,4 +997,237 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  
+}
+
+/* ================= MOBILE FINAL FIX ================= */
+
+@media (max-width: 650px) {
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .nav-container {
+    padding: 0 16px;
+  }
+
+  .logo-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  /* HERO */
+  .hero {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 35px 22px 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-badge {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .hero h1 {
+    font-size: clamp(40px, 12vw, 52px);
+    line-height: 1.05;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .hero-buttons {
+    margin: 25px 0;
+    gap: 10px;
+  }
+
+  .btn {
+    padding: 13px 20px;
+    font-size: 14px;
+  }
+
+  /* STATS */
+  .hero-stats {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    padding-top: 20px;
+  }
+
+  .hero-stats strong {
+    font-size: 23px;
+  }
+
+  .hero-stats span {
+    font-size: 9px;
+  }
+
+  /* HERO IMAGES */
+  .hero-images {
+    width: 100%;
+    height: 330px;
+    margin-top: 5px;
+  }
+
+  .hero-img {
+    border-width: 5px;
+    border-radius: 18px;
+  }
+
+  .img1 {
+    width: 70%;
+    height: 235px;
+    left: 3%;
+    top: 35px;
+  }
+
+  .img2 {
+    width: 48%;
+    height: 165px;
+    right: 0;
+    top: 0;
+  }
+
+  .img3 {
+    width: 48%;
+    height: 165px;
+    right: 2%;
+    bottom: 5px;
+  }
+
+  /* QUICK MENU */
+  .quick-menu {
+    margin: 15px 15px 30px;
+    padding: 12px;
+    gap: 5px;
+  }
+
+  .quick-menu a {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 55px 18px;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  /* ABOUT */
+  .about-grid {
+    gap: 30px;
+  }
+
+  .about-text h2 {
+    font-size: 31px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+
+  .about-image img {
+    height: 280px;
+  }
+
+  /* ANNOUNCEMENT */
+  .announcement-section {
+    padding: 0 15px 30px;
+  }
+
+  .announcement {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .announcement h3 {
+    font-size: 18px;
+  }
+
+  /* CARDS */
+  .facility-grid,
+  .event-grid,
+  .places-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .facility-card {
+    padding: 23px;
+  }
+
+  .place-card img,
+  .place-card.big img {
+    height: 230px;
+  }
+
+  /* GALLERY */
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 160px;
+    gap: 10px;
+  }
+
+  .gallery-item {
+    border-radius: 15px;
+  }
+
+  /* MAP */
+  .map-section {
+    margin: 15px;
+    padding: 25px 18px;
+    border-radius: 22px;
+    gap: 25px;
+  }
+
+  .map-content h2 {
+    font-size: 30px;
+  }
+
+  .map-box {
+    height: 280px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 45px 20px;
+    gap: 30px;
+  }
+
+  /* FLOAT BUTTONS */
+  .whatsapp {
+    width: 52px;
+    height: 52px;
+    bottom: 18px;
+    left: 15px;
+  }
+
+  .top-btn {
+    width: 42px;
+    height: 42px;
+    bottom: 18px;
+    right: 15px;
+  }
 }
