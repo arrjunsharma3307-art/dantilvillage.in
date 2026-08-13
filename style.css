@@ -1231,3 +1231,35 @@ footer {
     right: 15px;
   }
 }
+/* 📱 MOBILE BACKGROUND FIX */
+@media (max-width: 650px) {
+
+  body {
+    background: #f6f8f5 !important;
+  }
+
+  .hero {
+    background:
+      radial-gradient(
+        circle at 90% 20%,
+        rgba(104, 170, 129, 0.35),
+        transparent 35%
+      ),
+      linear-gradient(
+        135deg,
+        #062f21 0%,
+        #0b5a3d 100%
+      ) !important;
+
+    color: white !important;
+  }
+
+  .hero h1,
+  .hero p {
+    color: white;
+  }
+
+  .hero h1 span {
+    color: #a8e2bd;
+  }
+}
